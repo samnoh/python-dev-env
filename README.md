@@ -2,7 +2,7 @@
 
 -   [nodemon](https://www.npmjs.com/package/nodemon) will be watching your python scripts
 
-## Change CMD
+## Change Command
 
 -   Run mutiple scripts at once by default
 -   Edit `docker-compose.yaml` to change the behaviour
