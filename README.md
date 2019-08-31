@@ -2,12 +2,6 @@
 
 -   [nodemon](https://www.npmjs.com/package/nodemon) will be watching your python scripts
 
-## Start
-
-```bash
-docker-compose up
-```
-
 ## Change CMD
 
 -   Run mutiple scripts at once by default
@@ -17,8 +11,32 @@ docker-compose up
 command: ./src/main.py
 ```
 
+## Start
+
+```bash
+docker-compose up
+```
+
 ## Clean Up
 
 ```bash
 docker-compose down
+```
+
+## Install Python Modules
+
+-   `requirements.txt`
+
+-   Example
+
+```
+bs4
+regex
+feedparser
+```
+
+-   Restart
+
+```bash
+docker-compose up --build
 ```
