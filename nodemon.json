@@ -1,0 +1,7 @@
+{
+    "execMap": {
+        "sh": "/bin/sh"
+    },
+    "watch": ["src/"],
+    "ext": "py"
+}
