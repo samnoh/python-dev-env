@@ -3,7 +3,7 @@ services:
     python-dev:
         build:
             context: .
-            dockerfile: Dockerfile
+            dockerfile: Dockerfile.dev
         volumes:
             - .:/usr/src/app
         command: run.sh
