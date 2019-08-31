@@ -4,5 +4,9 @@
         "py": "python3"
     },
     "watch": ["src/"],
-    "ext": "py"
+    "delay": "300",
+    "ext": "py",
+    "events": {
+        "crash": "nodemon run.sh"
+    }
 }

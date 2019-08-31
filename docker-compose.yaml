@@ -7,3 +7,4 @@ services:
         volumes:
             - .:/usr/src/app
         command: run.sh
+        # command: src/main.py
