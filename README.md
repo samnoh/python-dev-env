@@ -1,4 +1,4 @@
-# Python3 Development
+# Python3 Development Environment Setup
 
 -   [nodemon](https://www.npmjs.com/package/nodemon) will be watching your python scripts
 
