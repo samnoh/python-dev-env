@@ -17,10 +17,6 @@ docker-compose up
 command: ./src/main.py
 ```
 
-```bash
-docker-compose up --build
-```
-
 ## Clean Up
 
 ```bash
