@@ -6,5 +6,5 @@ services:
             dockerfile: Dockerfile.dev
         volumes:
             - .:/usr/src/app
-        command: run.sh
-        # command: ./src/main.py
+        command: ./src/main.py
+        # command: run.sh

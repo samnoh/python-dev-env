@@ -4,11 +4,17 @@
 
 ## Change Command
 
--   Run mutiple scripts at once by default
--   Edit `docker-compose.yaml` to change the behaviour
+-   `docker-compose.yaml`
+-   `main.py` will be executed by default
 
 ```yaml
 command: ./src/main.py
+```
+
+-   Execute mutiple scripts in `src` folder at once
+
+```yaml
+command: run.sh
 ```
 
 ## Start
