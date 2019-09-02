@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for py_file in $(find ./src -name *.py)
+for file in $(find ./src -name *.py)
 do
-    python3 $py_file
+    python3 $file
 done
