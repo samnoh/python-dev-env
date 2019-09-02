@@ -29,9 +29,9 @@ docker-compose up
 docker-compose down
 ```
 
-## `requirements.txt`
+## Install Python Modules
 
--   Install Python Modules
+-   `requirements.txt`
 
 ```
 bs4
