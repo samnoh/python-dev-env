@@ -8,7 +8,7 @@
 -   `main.py` will be executed by default
 
 ```yaml
-command: ./src/main.py
+command: src/main.py
 ```
 
 -   Execute mutiple scripts in `src` folder at once
@@ -29,11 +29,9 @@ docker-compose up
 docker-compose down
 ```
 
-## Install Python Modules
+## `requirements.txt`
 
--   `requirements.txt`
-
--   Example
+-   Install Python Modules
 
 ```
 bs4
