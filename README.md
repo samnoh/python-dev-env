@@ -1,6 +1,7 @@
 # Python3 Development Environment Setup
 
 -   [nodemon](https://www.npmjs.com/package/nodemon) will be watching your python scripts
+    -   updates automatically if there are any changes
 
 ## Change Command
 
