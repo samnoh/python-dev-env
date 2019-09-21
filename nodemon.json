@@ -5,8 +5,5 @@
     },
     "watch": ["src/"],
     "delay": "300",
-    "ext": "py",
-    "events": {
-        "crash": "nodemon run.sh"
-    }
+    "ext": "py"
 }
